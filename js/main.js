@@ -74,11 +74,11 @@ SLIDE TWEETS FUNCTION
 var count = 1;
 function slider(){
   setInterval(function(){
-    $('#tweet-content ul li:nth-child('+count+')').fadeOut();
+    $('#tweet-content ul li:nth-child('+count+')').hide();
     if(count==5) count=1;
     count++;
-    $('#tweet-content ul li:nth-child('+count+')').fadeIn();
-},5000);
+    $('#tweet-content ul li:nth-child('+count+')').show();
+},8000);
 }
 
 $(window).load(function(){
