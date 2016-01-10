@@ -1,5 +1,5 @@
-Burgos.io
+# Burgos.io
 
 Personal web page of Juan Burgos.
 
-Built using http://getskeleton.com/
+Built using [Skeleton](http://getskeleton.com/).

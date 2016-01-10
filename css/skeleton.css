@@ -35,14 +35,25 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box; }
-  .main.container {
-      height: 100vh;
-  }
+
+.main.container {
+  height: 100vh;
+}
+
 .column,
 .columns {
   width: 100%;
   float: left;
   box-sizing: border-box; }
+
+
+  .tweet-container > ul > li {
+      list-style-type: none;
+  }
+
+  .tweet > a {
+      word-wrap: break-word;
+  }
 
   .footer {
     background-color: #0E3D4F;
@@ -181,10 +192,24 @@ p { font-size: 1.75rem; color: #ffffff; font-weight: 400; margin-bottom: 0; }
     text-decoration: line-through;
 }
 
+.timePosted {
+    text-align: right;
+}
+
+.timePosted > a {
+    color: #93C0C8;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.timePosted > a:hover {
+    color: #93C0C8;
+}
+
 /* Larger than phablet */
 @media (min-width: 550px) {
-  h1 { font-size: 5.0rem; }
-  h2 { font-size: 4.2rem; }
+  h1 { font-size: 4.5rem; }
+  h2 { font-size: 3.75rem; }
   h3 { font-size: 3.6rem; }
   h4 { font-size: 3.0rem; }
   h5 { font-size: 2.4rem; }
@@ -197,6 +222,7 @@ p { font-size: 1.75rem; color: #ffffff; font-weight: 400; margin-bottom: 0; }
   .logo {
       margin-top: 2.5rem;
   }
+
 }
 
 
@@ -338,7 +364,9 @@ ol {
   list-style: decimal inside; }
 ol, ul {
   padding-left: 0;
-  margin-top: 0; }
+  margin-top: 0;
+  margin-bottom: 0;
+ }
 ul ul,
 ul ol,
 ol ol,
@@ -457,7 +485,13 @@ there.
 @media (min-width: 750px) {}
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 1000px) {
+
+    .bio-container, .tweet-section {
+        position: absolute;
+        bottom: 15%;
+    }
+}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
