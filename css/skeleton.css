@@ -489,7 +489,11 @@ there.
 
     .bio-container, .tweet-section {
         position: absolute;
-        bottom: 15%;
+        bottom: 20%;
+    }
+
+    .tweet-section {
+        right: 0;
     }
 }
 
