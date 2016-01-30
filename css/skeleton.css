@@ -659,7 +659,7 @@ there.
 
 @media (min-width: 1000px) {
 
-    /* Underline From Left */
+    /* Underline From Left
 
     .hvr-underline-from-left {
         display: inline-block;
@@ -695,6 +695,7 @@ there.
     .hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
         right: 0;
     }
+    */
 
 }
 
